@@ -3,7 +3,7 @@ Ce projet est composé de deux parties distinctes :  un modèle de Reconnaissanc
 
 La première partie du projet se concentre sur la mise en place du modèle ASR. Nous avons utilisé un modèle français sur le Hub de Huggingface en inférence pour transcrire des enregistrements audio en texte.
 
-Dans la deuxième partie du projet, nous avons d'abord fine-tuné (sentiment_classification.ipynb) un modèle de classification BERT (positif ou négatif ) entrainé sur le jeu de données : https://www.kaggle.com/datasets/djilax/allocine-french-movie-reviews. Ensuite, nous l'avons envoyé sur le Hub de Hugging Face (billfass/bert-base-sentiment-classification). Enfin, nous avons effectué une analyse de sentiment sur la transcription générée du modèle ASR.
+Dans la deuxième partie du projet, nous avons d'abord fine-tuné (bert_sentiment_classification_model.ipynb) un modèle de classification BERT entrainé sur le jeu de données : https://www.kaggle.com/datasets/djilax/allocine-french-movie-reviews. Ensuite, nous l'avons envoyé sur le Hub de Hugging Face (https://huggingface.co/billfass/bert-base-sentiment-classification). Enfin, nous avons effectué une analyse de sentiment sur la transcription générée du modèle ASR.
 
 ![Image de l'architecture](img/architecture.png)
 
