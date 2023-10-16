@@ -147,7 +147,7 @@ Vous pouvez déployez le modèle dans un docker. Le fichier Dockerfile vous perm
 ## Limitations et Biais
 
 - Entraîné sur un ensemble de données spécifique, il peut ne pas généraliser bien à d'autres types de texte.
-- Ce modèle n'est entraîné que pour la langue fongbe.
+- Ce modèle n'est entraîné que pour la langue française.
 
 ## Auteurs
 
